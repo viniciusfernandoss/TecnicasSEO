@@ -1,0 +1,75 @@
+section {
+    background-image: radial-gradient(circle, #070707, #0c0c0c, #101010, #131313, #161616, #161616, #161616, #161616, #131313, #101010, #0c0c0c, #070707);
+    max-width: 100%;
+    max-height: 100%;
+}
+
+.container {
+    padding-top: 150px;
+    width: 100%;
+    height: auto;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    margin: auto;
+
+    align-items: flex-start; /* Alinha os itens no início do contêiner */
+    box-sizing: border-box; /* Inclui padding e border na largura total */
+}
+
+.textos {
+    color: white;
+    padding: 50px;
+    background-color: rgba(0, 0, 0, 0.4);
+    border-radius: 40% 10% 10% 10%;
+
+    flex: 1; /* Permite que os textos ocupem o espaço restante disponível */
+    box-sizing: border-box; /* Inclui padding e border na largura total */
+}
+
+.textos h2 {
+    font-family: Bebas Neue;
+    font-size: 110px;
+    font-weight: 400;
+    line-height: 110px;
+    text-align: left;
+}
+
+.textos h2 span {
+    color:rgba(175, 6, 0, 1);
+}
+
+.textos h3 {
+    font-family: Bebas Neue;
+    font-size: 24px;
+    font-weight: 400;
+    line-height: 28.8px;
+    text-align: left;
+}
+
+.textos p {
+    font-family: Montserrat;
+    font-size: 21px;
+    font-weight: 400;
+    line-height: 38px;
+    letter-spacing: -0.02em;
+    text-align: justify;
+}
+
+.img {
+    flex: 1; /* Permite que a imagem ocupe o espaço restante disponível */
+}
+
+@media (max-width: 1440px) {
+    .img {
+        display: none;
+    }
+
+    .textos {
+        border-radius: 25px;
+        box-shadow: rgb(38, 57, 77) 0px 20px 30px -10px;
+        width: 80%;
+        height: auto;
+        margin-block: 5em;
+    }
+}
