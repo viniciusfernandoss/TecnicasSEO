@@ -1,5 +1,7 @@
 # LandingPageSeo
 
+Figma: https://www.figma.com/design/3f9nFFwoowYUeQzG5IgSM4/T%C3%A9cnicas-de-SEO?node-id=3-118&node-type=FRAME&t=t4Dy1atHBefw0iGu-0
+
 This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 18.2.0.
 
 ## Development server
