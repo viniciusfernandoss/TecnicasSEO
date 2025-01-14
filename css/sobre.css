@@ -2,14 +2,14 @@
     background-image: url('../img/bg-informacoes.png');
     background-size: cover;
     background-position: center;
-    height: 200vh;
+    height: 160vh;
 }
 
 .informacoes2{
     background-image: url('../img/bg-informacoes.png');
     background-size: cover;
     background-position: center;
-    height: 180vh;
+    height: 150vh;
 }
 
 .content-titulo-sobre h2{
@@ -23,18 +23,13 @@
     font-weight: 100;
 }
 
-
-
-@media (min-width: 1900px) {
+@media (max-width: 1364px){
     .informacoes{
-        height: 130vh;
+        height: 240vh;
     }
-
     .informacoes2{
-        height: 130vh;
+        height: 230vh;
     }
-
-    
 }
 
 .content-video-sobre iframe{
