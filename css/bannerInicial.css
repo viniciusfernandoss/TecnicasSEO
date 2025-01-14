@@ -1,0 +1,30 @@
+#bannerinicial{
+    height: 100vh;
+}
+
+.content-bannerinicial h1{
+    font-family: var(--fonte-BebasNeue);
+    font-weight: 700;
+}
+.content-bannerinicial p{
+    font-family: var(--fonte-Montserrat);
+    font-weight: 500;
+    font-size: 1.4rem;
+}
+.content-bannerinicial a{
+    font-family: var(--fonte-Roboto);
+    text-decoration: none;
+    color: white;
+    background-color: #DE0707;
+    transition: 0.5s;
+}
+.content-bannerinicial a:hover{
+    background-color: white;
+    color: #DE0707;
+}
+
+@media (min-width: 1910px){
+    .content-bannerinicial h1{
+        font-size: 3rem;
+    }
+}

@@ -1,0 +1,56 @@
+.informacoes{
+    background-image: url('../img/bg-informacoes.png');
+    background-size: cover;
+    background-position: center;
+    height: 200vh;
+}
+
+.informacoes2{
+    background-image: url('../img/bg-informacoes.png');
+    background-size: cover;
+    background-position: center;
+    height: 180vh;
+}
+
+.content-titulo-sobre h2{
+    font-size: 2.8rem;
+    font-family: var(--fonte-BebasNeue);
+    font-weight: 600;
+}
+
+.content-texto-sobre p{
+    font-size: 1.1rem;
+    font-weight: 100;
+}
+
+
+
+@media (min-width: 1900px) {
+    .informacoes{
+        height: 130vh;
+    }
+
+    .informacoes2{
+        height: 130vh;
+    }
+
+    
+}
+
+.content-video-sobre iframe{
+    width: 70%;
+}
+
+@media (max-width: 995px){
+    .content-video-sobre iframe{
+        width: 95%;
+    }
+
+    .informacoes{
+        height: 170vh;
+    }
+
+    .informacoes2{
+        height: 140vh;
+    }
+}

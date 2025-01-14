@@ -1,0 +1,38 @@
+.content-preco{
+    background-color: #111010;
+}
+
+.content-preco h2{
+    font-size: 1rem;
+}
+
+.content-preco h3{
+    font-size: 1.5rem;
+}
+
+.valor-preco{
+    font-family: var(--fonte-Montserrat);
+}
+.valor-dinheiro{
+    font-size: 2rem;
+}
+
+.valor2-dinheiro{
+    font-size: 6rem;
+    font-weight: 600;
+}
+
+.txt-preco-final{
+    font-family: var(--fonte-Roboto);
+}
+
+.content-preco a{
+    text-decoration: none;
+    background-color: #de0707;
+    color: white;
+    transition: 0.3s;
+}
+.content-preco a:hover{
+    background-color: white;
+    color: #de0707;
+}

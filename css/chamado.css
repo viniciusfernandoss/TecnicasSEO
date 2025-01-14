@@ -1,0 +1,31 @@
+#chamado{
+    background: url('../img/bg-chamado.png');
+    background-size: cover;
+    background-position: center;
+}
+
+.content1-chamado h2{
+    font-size: 3.2rem;
+    font-family: var(--fonte-BebasNeue);
+    font-weight: 600;
+}
+
+.content1-chamado a{
+    text-decoration: none;
+    background-color: white;
+    color: #8A0500;
+    transition: 0.3s;
+}
+.content1-chamado a:hover{
+    background-color: black;
+    color: white;
+}
+
+@media (max-width: 999px){
+    #chamado{
+        background: #AF0600;
+    }
+    .content1-chamado h2{
+        font-size: 2.5rem;
+    }
+}

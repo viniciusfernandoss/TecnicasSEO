@@ -1,0 +1,49 @@
+.titulo-faq{
+    font-family: var(--fonte-BebasNeue);
+    font-weight: 600;
+    font-size: 3rem;
+}
+
+.content-faq{
+    background-color: #100f0f;
+}
+
+.accordion{
+    --bs-accordion-active-bg: none;
+    --bs-accordion-active-color: white;
+    --bs-accordion-btn-focus-box-shadow: none;
+    --bs-accordion-bg: none;
+    --bs-accordion-border-width: 0px;
+    
+    --bs-accordion-button-active-color: white;
+}   
+ 
+.accordion-icon-color{
+    background-color: red;
+    color: red;
+}
+
+
+.accordion-button.collapsed{
+    padding: 2.5%;
+    font-size: 1.3rem;
+    color: white;
+    font-weight: 700;
+    background: none;
+}
+.accordion-collapse{
+    background-color: none;
+    color: white;
+}
+.accordion-button:not(.collapsed){
+    color: white;
+    box-shadow: none;
+    padding: 2.5%;
+    font-weight: 700;
+    font-size: 1.3rem;
+}
+
+.accordion-body{
+    font-size: 1.1rem;
+    color: white;
+}

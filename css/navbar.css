@@ -1,0 +1,42 @@
+header{
+    background-image: url('../img/bg-bannerinicial.png');
+    background-size: cover;
+    background-position: center;
+}
+
+#headerr{
+    transition: 0.5s;
+}
+
+.header-top-fixo{
+    position: fixed;
+    top: 0;
+    left: 0;
+    z-index: 1000; /* Garante que o cabeçalho fique sobre outros elementos */
+}
+
+li{
+    list-style: none;
+}
+
+.nav-link{
+    color: white;
+    font-family: var(--fonte-Montserrat);
+}
+.nav-link:hover{
+    color: #DE0707;
+}
+
+.redes-sociais-header a{
+    color: white;
+    font-size: 2rem;
+    transition: 0.5s;
+}
+
+.redes-sociais-header a:hover{
+    color: #DE0707;
+}
+
+@media (min-width: 1910px){
+    
+}

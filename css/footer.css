@@ -1,0 +1,9 @@
+.content2-footer-menu a{
+    color: white;
+    text-decoration: none;
+    transition: 0.3s;
+}
+
+.content2-footer-menu a:hover{
+    color: #de0707;
+}

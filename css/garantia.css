@@ -1,0 +1,39 @@
+#garantia{
+    background: linear-gradient(to top right, black, #1a1818);
+}
+
+.content-garantia h2{
+    font-family: var(--fonte-BebasNeue);
+    font-size: 3rem;
+    letter-spacing: 1rem;
+    font-weight: 600;
+}
+.content-garantia h3{
+    font-family: var(--fonte-Montserrat);
+    font-size: 3rem;
+}
+.content-garantia{
+    font-size: 1.2rem;
+    font-family: var( --fonte-Roboto);
+    font-weight: 600;
+}
+.content-garantia{
+    
+}
+
+@media (max-width: 995px){
+    .content-garantia h2{
+        font-size: 3rem;
+        letter-spacing: 0.5rem;
+        font-weight: 600;
+    }
+    .content-garantia h3{
+        font-family: var(--fonte-Montserrat);
+        font-size: 1.5rem;
+    }
+    .content-garantia{
+        font-size: 1rem;
+        font-family: var( --fonte-Roboto);
+        font-weight: 600;
+    }
+}

@@ -1,0 +1,26 @@
+#criador{
+    background: linear-gradient(to top right, black, #1a1818);
+    height: 400px;
+    margin-top: 15vh;
+}
+
+.content1-criador h2{
+    font-family: var(--fonte-BebasNeue);
+    font-weight: 600;
+    font-size: 3rem;
+}
+
+.content1-criador h3{
+    font-size: 1rem;
+}
+
+.content1-criador p{
+    font-weight: 100;
+}
+
+@media (max-width: 999px){
+    #criador{
+        height: auto;
+        margin-top: 5vh;
+    }
+}
